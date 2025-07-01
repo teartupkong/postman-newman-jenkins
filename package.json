@@ -1,0 +1,16 @@
+{
+  "name": "newman-jenkins",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "directories": {
+   "test": "tests"
+  },
+  "scripts": {
+    "api-tests-dev": "newman run tests/test-collection.postman_collection.json"
+  },
+  "author": "Tup K",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.2.1"
+  }
+}
