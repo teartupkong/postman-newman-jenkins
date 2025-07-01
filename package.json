@@ -6,7 +6,7 @@
    "test": "tests"
   },
   "scripts": {
-    "api-tests-dev": "newman run tests/test-collection.postman_collection.json"
+    "api-tests-dev": "newman run tests/test-collection.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Tup K",
   "license": "ISC",
